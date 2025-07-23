@@ -1,8 +1,11 @@
 import React from 'react'
+import NavBar from './components/NavBar';
 
 export const App = () => {
   return (
-    <div className='border border-red-500 text-5xl'>Apps</div>
+    <div>
+      <NavBar />
+    </div>
   )
 }
 
