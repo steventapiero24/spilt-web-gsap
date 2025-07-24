@@ -7,6 +7,5 @@ import HeroSection from './sections/HeroSection.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
-    <HeroSection />
   </StrictMode>,
 )
